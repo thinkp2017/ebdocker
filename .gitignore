@@ -197,3 +197,8 @@ FakesAssemblies/
 # FAKE - F# Make
 .fake/
 
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
