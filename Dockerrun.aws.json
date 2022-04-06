@@ -1,0 +1,19 @@
+{
+  "AWSEBDockerrunVersion": 1,
+  "containerDefinitions": [
+    {
+      "name": "ebdocker",
+      "image": {
+        "name": "nanda/ebdocker",
+        "update": "true"
+      },
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        }
+      ]
+    }
+  ]
+}
